@@ -24,6 +24,7 @@ p{
 p1{
     font-size: 20px;
 }
+
 li{
     font-size: 21px;
     font-family: cursive;
@@ -47,7 +48,18 @@ textarea{
 header {
     background-color: #4b4b4b;
     text-align: center;
-    padding: 10px;
+    padding: 20px;
     color: #fff;
-    padding-bottom: 20px;
+    margin-bottom: 8px;
+}
+
+.archieve {
+    border: solid gray;
+    border-radius: 12px;
+    padding: 15px;
+}
+.journey2 {
+    float: left;
+    margin: 40px;
+    overflow: auto;
 }
