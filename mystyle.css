@@ -41,30 +41,25 @@ textarea{
     width: 5000px;
     margin: 20;
 }
-
 header {
     background-color: #4b4b4b;
     text-align: center;
     padding: 20px;
     color: #fff;
-    margin-bottom: 8px;
 }
-
-.archieve {
-    border: solid #ddd;
-    border-radius: 12px;
-    margin-bottom: 8px;
+nav {
+    text-align: center;
+    background-color: #4b4b4b;
+    border: 3px solid gray;
 }
-.journey2 {
-    float: left;
-    margin: 37px;
-    overflow: auto;
-    border: solid #ddd;
-    border-radius: 12px;
-    padding: 15px;
+nav ul {
+    list-style: none;
 }
-.more {
-    border: solid #ddd;
-    border-radius: 12px;
-    padding: 15px;
-}
+ nav ul li{
+    display: inline;
+    margin: 0 15px;
+ }
+ nav ul li a {
+    color:#ffff;
+    text-decoration: none;
+ }
